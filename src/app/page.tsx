@@ -2,9 +2,12 @@ import Link from "next/link"
 
 export default function  Home(){
   return(
-    <div>
+    <div className="p-4">
       Hello Next.js
-      <Link className="p-8 bg-green-100 rounded-2xl text-center hover:bg-blue-500" href="/dashboard"> go to dashboard </Link>
+      <div className="mt-14 p-2 bg-blue-400 w-48 text-center text-white rounded-2xl hover:bg-blue-700 transition-all duration-300 ">
+      <Link  href="/dashboard"> go to dashboard </Link>
+      </div>
+      
     </div>
   )
 }
