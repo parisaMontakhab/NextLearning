@@ -9,7 +9,7 @@ export default function  Home(){
       
       </div>
 
-      <button>move to dashboard</button>
+      <button className="mt-14 w-48 p-4 bg-purple-950 text-center text-slate-300 rounded-2xl hover:bg-purple-400 hover:text-white transition-all duration-300">move to dashboard</button>
       
     </div>
   )
