@@ -15,7 +15,7 @@ export default function NewsList(){
             <ul>
                 {news.map((item)=>(
                     <li key={item.id}>
-                       <a href={`/news/${item.id}`}>{item.title}</a>
+                       <Link href={`/news/${item.id}`}>{item.title}</Link>
                     </li>
                 ))}
             </ul>
