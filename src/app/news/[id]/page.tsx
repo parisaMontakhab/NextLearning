@@ -1,12 +1,22 @@
 
+'use client';
 
-import { useRouter } from "next/router"
+import { useParams, useSearchParams } from 'next/navigation';
+
+
 
  export default function News(){
+    
+    const params = useParams();
+    
+    const id = params.id;
+    
+    
    
     return(
         <div>
-            Hello from News 
+            Hello from News {id}
+            
         </div>
     )
  }
