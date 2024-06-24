@@ -16,9 +16,9 @@ export default function  Home(){
 
       <button className="mt-14 w-48 p-4 bg-purple-950 text-center text-slate-300 rounded-2xl hover:bg-purple-400 hover:text-white transition-all duration-300"
        type="button"
-      onClick={()=>router.push('/dashboard')}
-      
-      >move to dashboard</button>
+      onClick={()=>router.push('/news')}>
+        go to News
+      </button>
       
     </div>
   )

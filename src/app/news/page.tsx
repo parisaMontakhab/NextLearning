@@ -8,7 +8,7 @@ export default function NewsList(){
         {id:4,title:"news foure" , content :"content foure"}
 
     ]
-
+    
     return(
         <div>
             <h1>News:</h1>
