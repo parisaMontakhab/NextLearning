@@ -14,7 +14,7 @@ import { useParams, useSearchParams } from 'next/navigation';
     
    
     return(
-        <div>
+        <div className='text-center font-medium'>
             Hello from News {id}
             
         </div>
