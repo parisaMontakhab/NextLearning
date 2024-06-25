@@ -3,6 +3,6 @@
 
 export default  function Page (){
     return(
-     <div> this is dashboard</div>
+     <div className="text-center font-medium mt-4"> this is dashboard</div>
     )
 }
