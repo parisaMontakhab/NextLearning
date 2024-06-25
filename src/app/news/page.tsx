@@ -11,10 +11,10 @@ export default function NewsList(){
     
     return(
         <div>
-            <h1>News:</h1>
+            <h1 className="font-black text-center mt-4">News:</h1>
             <ul>
                 {news.map((item)=>(
-                    <li key={item.id}>
+                    <li key={item.id} className="text-center mt-4 font-semibold">
                        <Link href={`/news/${item.id}`}>{item.title}</Link>
                     </li>
                 ))}

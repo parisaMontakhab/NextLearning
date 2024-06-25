@@ -41,7 +41,7 @@ function Header(){
 function Footer(){
   return(
     <div>
-      <h1 className="w-96 bg-blue-200 text-white rounded-2xl text-center m-auto p-8 "> FOOTER</h1>
+      <h1 className="w-96 bg-blue-200 text-white rounded-2xl text-center m-auto p-8 mt-4"> FOOTER</h1>
     </div>
   )
 }
