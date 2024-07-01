@@ -3,9 +3,9 @@
 import Link from "next/link"
 import { useRouter } from 'next/navigation'
 
-const session = null;
+
 export default function  Home(){
-  if(!session) throw new Error('not found')
+  
   const router = useRouter()
   return(
     <div className="p-4 flex items-center justify-center ">
