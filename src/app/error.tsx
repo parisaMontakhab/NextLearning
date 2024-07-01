@@ -1,7 +1,7 @@
 'use client'
 
-const error = ({})=>{
-    return <div>errore</div>
+const Error = ({})=>{
+    return <div className="text-center font-black text-red-900 mt-4 ">errore</div>
 }
 
-export default error
+export default Error
