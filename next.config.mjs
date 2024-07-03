@@ -13,11 +13,11 @@ const nextConfig = {
             destination: '/new-page',
             permanent: true,
           },
-          {
-            source: '/postlist',
-            destination: '/dashboard',
-            permanent: true,
-          }
+          // {
+          //   source: '/postlist',
+          //   destination: '/dashboard',
+          //   permanent: true,
+          // }
         ];
       },
 };
