@@ -8,6 +8,11 @@ const nextConfig = {
             destination: '/not-found',
             permanent: false,
           },
+          {
+            source: '/old-page',
+            destination: '/new-page',
+            permanent: true,
+          }
         ];
       },
 };
