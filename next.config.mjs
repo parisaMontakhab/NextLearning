@@ -12,6 +12,11 @@ const nextConfig = {
             source: '/old-page',
             destination: '/new-page',
             permanent: true,
+          },
+          {
+            source: '/postlist',
+            destination: '/dashboard',
+            permanent: true,
           }
         ];
       },
